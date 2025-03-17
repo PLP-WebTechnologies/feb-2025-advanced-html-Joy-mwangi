@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Assignment</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My HTML5 Assignment</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Topics Covered</h2>
+        <ol type="I">
+            <li>HTML5 Elements</li>
+            <li>Multimedia Integration</li>
+            <li>Forms and Validation</li>
+            <li>Tables and Lists</li>
+            <li>Semantic Structure</li>
+        </ol>
+    </section>
+
+    <!-- External Image -->
+    <section>
+        <h2>External Image from Pexels</h2>
+        <img src="skincare.jpg" alt="skincare for all skin types" width="350" height="350">
+    </section>
+
+    <!-- Contact Table -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Joy Mwangi</td>
+                    <td>123 Sunshine Ave</td>
+                    <td>+1234567890</td>
+                    <td>joy@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Alex Ganthi</td>
+                    <td>456 Oak Street</td>
+                    <td>+0987654321</td>
+                    <td>alex@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Maria Leke</td>
+                    <td>789 Pine Road</td>
+                    <td>+1122334455</td>
+                    <td>maria@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>John Dolke</td>
+                    <td>321 Maple Lane</td>
+                    <td>+6677889900</td>
+                    <td>john@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Emma Sepeta</td>
+                    <td>654 Elm Drive</td>
+                    <td>+4455667788</td>
+                    <td>emma@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <!-- Name -->
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <br><br>
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <!-- Password -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a password" minlength="6" required>
+            <br><br>
+
+            <!-- Date of Birth -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <!-- Dropdown -->
+            <label for="country">Select Country:</label>
+            <select id="country" name="country" required>
+                <option value="">--Choose--</option>
+                <option value="us">Kenya</option>
+                <option value="uk">South Africa</option>
+                <option value="ng">Nigeria</option>
+                <option value="ca">Uganada</option>
+            </select><br><br>
+
+            <!-- Radio Buttons -->
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other" required>
+            <label for="other">Other</label><br><br>
+
+            <!-- Checkboxes -->
+            <p>Interests:</p>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label><br>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label><br>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label><br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Joy's HTML5 Assignment</p>
+    </footer>
+</body>
+</html>
